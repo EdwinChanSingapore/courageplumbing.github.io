@@ -6,6 +6,7 @@ description: "Courage Plumbing is a Singaporean plumbing company specialising in
 baseurl: ""
 url: "http://courageplumbing.sg"
 email_username:  courage_plumbing@hotmail.comm
+future: true
 
 # Build settings
 markdown: kramdown
