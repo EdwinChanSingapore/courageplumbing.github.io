@@ -1,0 +1,17 @@
+# Site settings
+title: Courage Plumbing
+email: courage_plumbing@hotmail.com
+copyright_name: CouragePlumbing
+description: "Courage Plumbing is a Singaporean plumbing company specialising in residential plumbing service solutions. With over 25 years of experience, we provide quality service for all your plumbing needs. Call or email us for a free quotation today!"
+baseurl: ""
+url: "http://courageplumbing.sg"
+email_username:  courage_plumbing@hotmail.comm
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
