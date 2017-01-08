@@ -6,7 +6,7 @@
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 p {
   line-height: 1.5;
@@ -400,4 +400,9 @@ body {
 }
 .highlighted {
     background-color: rgba(52,133,227,.6);
+}
+.post-subtitle {
+    font-weight: 300;
+    font-size: 20;
+    padding: 9px;
 }
