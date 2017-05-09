@@ -413,16 +413,17 @@ body {
 .post-thumb img {
     display: block
 }
+.post-new img {
+    float: left
+}
 .post-content {
     margin-left: 210px
 }
 .post-title {
-    font-weight: bold;
     font-size: 200%;
     padding: 9px;
 }
 .post-subtitle {
-    font-weight: bold;
     font-size: 200%;
     padding: 9px;
 }
