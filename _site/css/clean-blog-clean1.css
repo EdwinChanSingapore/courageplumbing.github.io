@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 body {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Arial', sans-serif;
   font-size: 20px;
   color: black;
 }
@@ -16,13 +16,17 @@ p a {
   text-decoration: underline;
 }
 h1,
-h2,
-h3,
+h2{
+  font-weight: 400;
+}
+h3
+{
+  font-weight: 300;
+}
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
   color: #333333;
@@ -51,21 +55,20 @@ hr.small {
   left: 0;
   width: 100%;
   z-index: 3;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
 .navbar-custom .navbar-header .navbar-toggle {
   color: #777777;
-  font-weight: 800;
+  font-weight: 400;
   text-transform: uppercase;
   font-size: 12px;
 }
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 @media only screen and (min-width: 768px) {
@@ -150,7 +153,7 @@ hr.small {
 .intro-header .site-heading,
 .intro-header .post-heading,
 .intro-header .page-heading {
-  padding: 100px 0 50px;
+  padding: 100px 0 100px;
   color: white;
 }
 @media only screen and (min-width: 768px) {
@@ -174,7 +177,6 @@ hr.small {
   font-size: 24px;
   line-height: 1.1;
   display: block;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 300;
   margin: 10px 0 0;
 }
@@ -334,7 +336,7 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight:400;
   letter-spacing: 1px;
   border-radius: 0;
   padding: 15px 25px;
@@ -357,7 +359,7 @@ form .row:first-child .floating-label-form-group {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
-  font-weight: 800;
+  font-weight: 400;
   letter-spacing: 1px;
   padding: 15px 25px;
   background-color: white;
@@ -399,7 +401,7 @@ body {
   -webkit-tap-highlight-color: #0085A1;
 }
 .highlighted {
-    background-color: rgba(52,133,227,.6);
+    background-color: rgba(52,133,227,.8);
 }
 .post-subtitle {
     font-weight: 300;
